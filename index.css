@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Timer Display */
+input[type="text"] {
+    width: 60px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+label {
+    font-size: 18px;
+    margin: 10px;
+    color: #555;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004494;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    #container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: 50px;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+}
